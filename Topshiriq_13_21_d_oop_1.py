@@ -92,9 +92,7 @@ class MyClass7:
 
 
 MyClass7.add_elem(MyClass7)
-key_1 = input("Keyni kiriting: ")
-value_1 = input("Valueni kiriting: ")
-MyClass7.update_elem(MyClass7, key_1, value_1)
+MyClass7.update_elem(MyClass7, "one", "four")
 
 
 class MyClass8:
@@ -134,3 +132,17 @@ class MyClass9:
 max_num1 = MyClass9.list1_max(MyClass9)
 max_num2 = MyClass9.list2_max(MyClass9)
 MyClass9.sum_of_two_max(MyClass9, max_num1, max_num2)
+
+
+class MyClass10:
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+    def divide(self, d):
+        new_list = []
+        for i in self.numbers:
+            if i % d == 0:
+                new_list.append(i)
+        return new_list
+
+
+print(MyClass10.divide(MyClass10, 4))
