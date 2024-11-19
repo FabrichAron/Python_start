@@ -57,7 +57,7 @@ class Smartphones(Texnika):
 
 
 
-
+Texnika("Apple", "MacBook Pro", "laptop").info()
 
 
         
