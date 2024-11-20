@@ -39,6 +39,7 @@ class Televisions(Texnika):
         print(self.brand)
         print(self.model)
         print(self.type_1)
+        print(self.size)
         print(self.display)
 
 
@@ -53,14 +54,16 @@ class Smartphones(Texnika):
         print(self.brand)
         print(self.model)
         print(self.type_1)
+        print(self.size)
         print(self.sim_count)
 
 
 
 Texnika("Apple", "MacBook Pro", "laptop").info()
+Notebooks("Apple", "MacBook Pro", "laptop", "2 TB", "8 TB", "OLED").more_info()
+Televisions("Apple", "MacBook Pro", "laptop", "162.2mm x 75.7mm x 8.49mm", "AMOLED").more_info()
+Smartphones("Apple", "MacBook Pro", "laptop", "162.2mm x 75.7mm x 8.49mm", "2").more_info()
 
-
-        
 
 
 
