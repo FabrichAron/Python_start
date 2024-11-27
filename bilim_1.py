@@ -80,3 +80,14 @@
 
 # Find() bilan Index() string metodlari orasidagi farq shuki Agar find()da yo'q narsani indeksi so'ralsa -1 qaytaradi index()dan so'ralsa xatolik qaytaradi.
 
+
+class Solution(object):
+    def equalFrequency(self, word):
+        print(word)
+
+
+Solution().equalFrequency("abcc")
+
+
+
+

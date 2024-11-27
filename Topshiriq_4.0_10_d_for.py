@@ -1,11 +1,11 @@
 # # 1-misol K va N soni berilgan (N > 0). K sonini N marta print qiling.
-# K = int(input("K soni:"))
-# N = int(input("N soni:"))
-# if N > 0:
-#     for i in range(N):
-#         print(K)
-# else:
-#     print("Iltimos, N ga noldan katta son kiriting")
+K = int(input("K soni:"))
+N = int(input("N soni:"))
+if N > 0:
+    for i in range(N):
+        print(K)
+else:
+    print("Iltimos, N ga noldan katta son kiriting")
 #
 # # 2-misol 1 dan n gacha bo`lgan toq sonlar yig`indisini toping.
 # n = int(input("n soni: "))
@@ -106,7 +106,7 @@
 # else:
 #     print("Iltimos, N ga noldan katta son yozing")
 #
-# # 12-misol Butun son berilgan N (N > 0). 1 – N gacha bo'lgan sonlar ko'paytmasini toping.
+# 12-misol Butun son berilgan N (N > 0). 1 – N gacha bo'lgan sonlar ko'paytmasini toping.
 # N = int(input("N soni: "))
 # son = 1
 # if N > 0:

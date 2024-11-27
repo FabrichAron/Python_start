@@ -1,4 +1,4 @@
-# # 1-misol A soni berilgan. Uni musbat yoki manfiy ekanligini aniqlang.
+# 1-misol A soni berilgan. Uni musbat yoki manfiy ekanligini aniqlang.
 # son = int(input("Sonni kiriting: "))
 # if son < 0:
 #     print("Kiritilgan son manfiy")
@@ -309,22 +309,22 @@
 #
 # # 29-misol K va N sonlari kiritilgan. N soni (1-7) joylashgan, u 1 yanvaring haftaning qaysi kuni ekanligi.
 # #          K soni (1-365) oraliqda va u yilgan kun. K soni qaysi haftaga to’g’ri kelishini aniqlang (Dushanba, …., Yakshanba.)
-n = int(input("N sonini kiriting: "))  # (1-7) oraliqda 1-yanvar hafta kuni raqami
-k = int(input("K sonini kiriting: "))  # (1-365) oraliqda yil kuni
-y = k % 7
-natija = n + y - 1
-natija = natija % 7
-if natija == 1:
-    print("Dushanba")
-elif natija == 2:
-    print("Seshanba")
-elif natija == 3:
-    print("Chorshanba")
-elif natija == 4:
-    print("Payshanba")
-elif natija == 5:
-    print("Juma")
-elif natija == 6:
-    print("Shanba")
-elif natija == 7:
-    print("Yakshanba")
+# n = int(input("N sonini kiriting: "))  # (1-7) oraliqda 1-yanvar hafta kuni raqami
+# k = int(input("K sonini kiriting: "))  # (1-365) oraliqda yil kuni
+# y = k % 7
+# natija = n + y - 1
+# natija = natija % 7
+# if natija == 1:
+#     print("Dushanba")
+# elif natija == 2:
+#     print("Seshanba")
+# elif natija == 3:
+#     print("Chorshanba")
+# elif natija == 4:
+#     print("Payshanba")
+# elif natija == 5:
+#     print("Juma")
+# elif natija == 6:
+#     print("Shanba")
+# elif natija == 7:
+#     print("Yakshanba")
