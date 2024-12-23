@@ -70,7 +70,7 @@ natija = test_matn.isalnum()
 print("14:", natija)
 
 # 15 isalpha
-test_matn = "SalomDunyo"
+test_matn = "SalomDunyo54"
 natija = test_matn.isalpha()
 print("15:", natija)
 
