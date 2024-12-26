@@ -104,7 +104,7 @@ h \033[0m-> yordam \033[92m({halp_total_num}/1)\033[0m""")
                                     f"\033[91mNoto'g'ri javob.\033[0m Sizning to'plagan balingiz \033[92m{count_test - 1}\033[0m")
                                 return count_test - 1
             elif answer_user == "h" and h_work_count == 1:
-                print("\033[91mSiz yordamdan foydalanib boldingiz!\033[0m")
+                print("\033[91mSiz yordamdan foydalanib bo'ldingiz!\033[0m")
                 print(f"""\033[96m
 Savol {count_test}/10:\033[0m \033[1m{i["question"]}\033[0m
 \033[93m

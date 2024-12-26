@@ -31,7 +31,7 @@ def main():
 
         if choise == "1":
             error_count = 0  # Xatolar sonini nolga tenglaydi
-            username = input("O'yinchini ismini kiriting: ")  # Userning ismini qabul qiladi
+            username = input("O'yinchining ismini kiriting: ")  # Userning ismini qabul qiladi
             username = check_capita_strip_name(username)
             """Username bo'sh emasligini tekshiradi, agar bo'sh bo'lsa o'yin qaytadan ishga tushadi"""
             users = add_or_get_users(users, username)
@@ -57,4 +57,5 @@ def main():
 
 
 print_game_name()  # Tizim ishga tushganda o'yinni nomini print qiladi
-main()  # yozilgan kodlarni ishga tushiradi
+if __name__ == "__main__": # yozilgan kodlarni ishga tushiradi
+    main()
